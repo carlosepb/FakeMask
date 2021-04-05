@@ -55,13 +55,13 @@ Mascara falsa.
 <p align="justify">
 Aplicación desarrollada en Processing 3 que hace uso de la cámara de tu portátil para ponerte una máscara, en este caso disponemos de 3 distintas.
 Para cambiar de máscara usaremos las teclas de flecha izquierda y flecha derecha.
-En la imagen inferior podemos ver como la máscara seguirá el movimiento de nuestra cara aunque el nivel de luz sea bajo..(imagen_4.0)
+En la imagen inferior podemos ver como la máscara seguirá el movimiento de nuestra cara aunque el nivel de luz sea bajo además de adaptarse al tamaño de nuestra cara por la cercanía a la cámara.(imagen_4.0)
 </p>
 <p align="center"><img src="gifCarlos.gif" alt="ejecución" width="600" height="425"></br>imagen_4.0</p>
 
 ## Trabajo Realizado
 <p align="justify">
-Para la rotación de la figura sobre si misma se utilizan los eventos keypressed y released utilizados en la primera practica además de la función rotate(). Estas tres cosas combinadas nos permiten realizar modificaciones en la inclinación de la figura respecto al eje 0.
+
 </p>
 
 ## Herramientas de Desarrollo
@@ -72,7 +72,7 @@ Para la rotación de la figura sobre si misma se utilizan los eventos keypressed
 ## Empezando
 
 <p align="justify">
-Para modificar y ejecutar la aplicación necesitará instalar el entorno de desarrollo Processing3.
+Para la detección de la cara se ha utilizado el recurso OpenCV además de la librería video accesible desde la interfaz Processing 3. Para la actualización de la máscara actual se utiliza una tarea que se ejecuta a través de un hilo a modo de timer lo que nos permite actualizar la ruta al fichero donde guardamos la mascara en uso.
 </p>
 
 ### Prerrequisitos

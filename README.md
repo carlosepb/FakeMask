@@ -61,7 +61,7 @@ En la imagen inferior podemos ver como la máscara seguirá el movimiento de nue
 
 ## Trabajo Realizado
 <p align="justify">
-
+Para la detección de la cara se ha utilizado el recurso OpenCV además de la librería video accesible desde la interfaz Processing 3. Para la actualización de la máscara actual se utiliza una tarea que se ejecuta a través de un hilo a modo de timer lo que nos permite actualizar la ruta al fichero donde guardamos la mascara en uso.
 </p>
 
 ## Herramientas de Desarrollo
@@ -70,10 +70,6 @@ En la imagen inferior podemos ver como la máscara seguirá el movimiento de nue
 
 <!-- GETTING STARTED -->
 ## Empezando
-
-<p align="justify">
-Para la detección de la cara se ha utilizado el recurso OpenCV además de la librería video accesible desde la interfaz Processing 3. Para la actualización de la máscara actual se utiliza una tarea que se ejecuta a través de un hilo a modo de timer lo que nos permite actualizar la ruta al fichero donde guardamos la mascara en uso.
-</p>
 
 ### Prerrequisitos
 

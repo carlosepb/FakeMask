@@ -106,11 +106,7 @@ Para modificar y ejecutar la aplicación necesitará instalar el entorno de desa
 
 ### Ejecutar
 
-1. Release.
-    * Descomprimir rar.
-    * Entrar a la versión correspondiente a nuestro windows.
-    * Lanzar Practica5.exe
-2. Proyecto.
+1. Proyecto.
     * Descomprimir rar.
     * Ejecutar Processin3.
     * Archivo->Abrir...

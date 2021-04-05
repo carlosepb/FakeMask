@@ -3,10 +3,10 @@ Mascara falsa.
 <!-- PROJECT LOGO -->
 <br/>
 <p align="center">
-  <h3 align="center">Péndulo de Newton</h3>
+  <h3 align="center">Máscara falsa</h3>
 
   <p align="center">
-    ¡Péndulo de Newton en 3D!
+    ¡Ponte una máscara!
     <br />
       <a href="https://github.com/carlosepb/FakeMask"><strong>Explorar repositorio»</strong></a>
     <br />
@@ -53,7 +53,9 @@ Mascara falsa.
 ## Sobre el Proyecto
 
 <p align="justify">
-En la imagen inferior podemos ver la ejecución del programa en un GIF que nos permite ver los cuatro estados de luz, además de una rotación y un reinicio del estado.(imagen_4.0)
+Aplicación desarrollada en Processing 3 que hace uso de la cámara de tu portátil para ponerte una máscara, en este caso disponemos de 3 distintas.
+Para cambiar de máscara usaremos las teclas de flecha izquierda y flecha derecha.
+En la imagen inferior podemos ver como la máscara seguirá el movimiento de nuestra cara aunque el nivel de luz sea bajo..(imagen_4.0)
 </p>
 <p align="center"><img src="gifCarlos.gif" alt="ejecución" width="600" height="425"></br>imagen_4.0</p>
 
